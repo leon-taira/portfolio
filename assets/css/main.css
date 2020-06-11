@@ -2,3 +2,142 @@ body {
     margin: 0;
     padding: 0;
 }
+model-viewer{
+    height: 600px;
+    width: 600px;
+    margin-left: 60px;
+
+}
+model-viewer:focus-visible{
+    outline: none;
+    
+}
+div.userInput:focus{
+    outline: none;
+}
+
+
+/* Nav bar */
+
+:root {
+    --primary-color: #f4f6ff;
+    --secondary-color: #393e46;
+    --extra-color: #cc0066;
+    --extra-color-2: #66cccc;
+}
+    
+    .container {
+      background: black;
+      min-height: 100vh;
+      font-family: Montserrat, sans-serif;
+    }
+    
+    nav a {
+        font-size: 40px;
+        color: #fff;
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav {
+        position: fixed;
+        left: 0;
+        z-index: 50;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+        background: var(--secondary-color);
+        opacity: 0.5;
+    }
+    nav:hover{
+        opacity: 1;
+        transition: 0.2s;
+    }
+    
+    section {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 0;
+        opacity: 0;
+        transition: all ease-in .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+
+/* Actual Pages */
+#firstPage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#intro {
+    font-family:'Titillium Web', sans-serif;
+    font-size: 100px;
+    color: #f4f6ff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color:black;
+    margin: 5px;
+    
+    font-weight: 1000;
+    
+}
+div #words h3 {
+    font-family:'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: #f4f6ff;
+    margin: 0;
+
+}
+
+div #pageText {
+    padding-top: 70px;
+}
+
+div #words {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 90px;
+    margin: none;
+}
+
+
+/* Arrow */
+.arrowContainer {
+    display: flex;
+    justify-content: center;
+    padding-right: 90px;
+    padding-top: 80px;
+    
+}
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+  }
+  
