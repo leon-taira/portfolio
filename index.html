@@ -19,54 +19,107 @@
     <script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
-    
+
     <script src="https://kit.fontawesome.com/c70e0489cc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
-        <a href="assets/files/photos/user-regular.svg"><i class="far fa-user"></i></a>
-        <a href="#second"><i class="fas fa-briefcase"></i></a>
-        <a href="#third"><i class="far fa-file"></i></a>
-        <a href="#fourth"><i class="far fa-address-card"></i></a>
-      </nav>
+        <a href="#firstPage"><i class="far fa-user"></i></a>
+        <a href="#secondPage"><i class="fas fa-briefcase"></i></a>
+        <a href="#thirdPage"><i class="far fa-file"></i></a>
+        <a href="#fourthPage"><i class="far fa-address-card"></i></a>
+    </nav>
     <div id="fullpage">
         <class class="section active" id="section0">
-            <div id="firstPage">
-                <div id= "pageText">
+            <div id="pageFirst">
+                <div id="pageText">
                     <div id="words">
-                    <h1 id="intro">Leon A. Taira</h1>
-                    <h3>Front-End Developer</h3>
-                    </div><!--below is arrow-->
+                        <h1 id="intro">Leon A. Taira</h1>
+                        <h3>Front-End Developer</h3>
+                    </div>
+                    <!--below is arrow-->
                     <div class="arrowContainer">
                         <a data-scroll href="#secondPage">
-                          <div class="arrow"></div>
+                            <div class="arrow"></div>
                         </a>
-                      </div>
-                      <div id="full"></div>
+                    </div>
+                    <div id="full"></div>
                 </div>
-            <model-viewer id="modelviewer" src="assets/files/leonFace.glb"
-                ar
-                auto-rotate camera-controls
-                shadow-intensity="1"
-                alt="A 3D model of an astronaut">
+                <model-viewer id="modelviewer" src="assets/files/leonFace.glb" ar auto-rotate camera-controls
+                    shadow-intensity="1" alt="A 3D model of an astronaut">
                 </model-viewer>
             </div>
         </class>
 
-    
+
         <div class="section" id="section1">
-            <div class="slide" data-anchor="slide1">
+            <div id="pageSecond">
+                <div id="soft-skills">
+                    <div id="softSkillList">
+                    <h3>Soft (real) skills</h3>
+                    <li><i class="fas fa-lightbulb"></i> Effcient and effective communication skills </li>
+                    <li><i class="fas fa-lightbulb"></i> Innovative, long-range thinker</li>
+                    <li><i class="fas fa-lightbulb"></i> Open and adoptable to changes and unexpected obstacles</li>
+                    <li><i class="fas fa-lightbulb"></i> Well-honed public speaking skills</li>
+                    </div>
+                    <div>
+                        <h3>Profile</h3>
+                    </div>
+
+                </div>
+
+                <div id="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <ul class="skill-list">
+                        <li class="skill">
+                            <h3>HTML</h3>
+                            <progress class="technicalSkill" max="100" value="90"></progress>
+                        </li>
+                        <li class="skill">
+                            <h3>CSS</h3>
+                            <progress class="technicalSkill" max="100" value="90"></progress>
+                        </li>
+                        <li class="skill">
+                            <h3>JavaScript</h3>
+                            <progress class="technicalSkill" max="100" value="80"></progress>
+                        </li>
+                        <li class="skill">
+                            <h3>Git</h3>
+                            <progress class="technicalSkill" max="100" value="80"></progress>
+                        </li>
+                        <li class="skill">
+                            <h3>jQuery</h3>
+                            <progress class="technicalSkill" max="100" value="30"></progress>
+                        </li>
+                        <br>
+                        <li class="skill">
+                            <h3>Adobe Illustrator</h3>
+                            <progress class="technicalSkill" max="100" value="85"></progress>
+                        </li>
+                        <li class="skill">
+                            <h3>Final Cut Pro</h3>
+                            <progress class="technicalSkill" max="100" value="85"></progress>
+                        </li>
+                        <li class="skill">
+                            <h3>Logic Pro X</h3>
+                            <progress class="technicalSkill" max="100" value="85"></progress>
+                        </li>
+
+                    </ul>
+                    <div>
+                        <h3>Currently Learning...</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Frameworks (React)</li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                </div>
                 
-            </div>
-            <div class="slide active" data-anchor="slide2">
-                <h1>Only text</h1>
-            </div>
-            <div class="slide" data-anchor="slide3">
-                <h1>And text</h1>
-            </div>
-            <div class="slide" data-anchor="slide4">
-                <h1>And more text</h1>
+
+
             </div>
         </div>
         <div class="section" id="section2">
@@ -76,7 +129,7 @@
             <h1>Just the simplest demo ever</h1>
         </div>
     </div>
-    
+
 
     <script src="assets/js/lib/fullpage.extensions.min.js"></script>
 
