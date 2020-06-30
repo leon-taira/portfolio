@@ -13,7 +13,7 @@ body {
 model-viewer {
     height: 600px;
     width: 600px;
-    margin-left: 60px;
+    margin-left: 10rem;
 
 }
 
@@ -95,6 +95,8 @@ section {
 
 #soft-skills{
     width: 50%;
+    margin-left: 10rem;
+    margin-top: 5rem;
 
 }
 
@@ -123,14 +125,17 @@ div #words h3 {
 }
 
 div #pageText {
-    padding-top: 70px;
+    padding-top: 60px;
+    padding-left: 6rem;
+    width: 70%;
+
 }
 
 div #words {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-right: 130px;
+    padding-right: 110px;
     margin: none;
 }
 
