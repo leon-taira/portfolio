@@ -3,5 +3,5 @@ let modelviewer = document.querySelector("#modelviewer")
 
 var sheet = new CSSStyleSheet
 sheet.replaceSync( `:focus { outline: none }`)
-modelviewer.shadowRoot.adoptedStyleSheets = [ sheet ] 
+modelviewer.shadowRoot.adoptedStyleSheets = [sheet];
 

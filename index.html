@@ -7,6 +7,7 @@
     <title>Leon Taira</title>
     <link rel="stylesheet" href="/assets/js/lib/fullpage.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/frontMain.css">
     <script src="assets/js/main.js" async></script>
 
     <!--  REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
@@ -24,19 +25,13 @@
 </head>
 
 <body>
-    <nav>
-        <a href="#firstPage"><i class="far fa-user"></i></a>
-        <a href="#secondPage"><i class="fas fa-briefcase"></i></a>
-        <a href="#thirdPage"><i class="far fa-file"></i></a>
-        <a href="#fourthPage"><i class="far fa-address-card"></i></a>
-    </nav>
     <div id="fullpage">
         <class class="section active" id="section0">
             <div id="pageFirst">
                 <div id="pageText">
                     <div id="words">
                         <h1 id="intro">Leon A. Taira</h1>
-                        <h3>Front-End Developer</h3>
+                        <h3>Web Engineer</h3>
                     </div>
                     <!--below is arrow-->
                     <div class="arrowContainer">
@@ -50,85 +45,118 @@
                     shadow-intensity="1" alt="A 3D model of an astronaut">
                 </model-viewer>
             </div>
+            <div id="nextSectionColor"></div>
         </class>
 
 
         <div class="section" id="section1">
             <div id="pageSecond">
-                <div id="soft-skills">
-                    <div id="softSkillList">
-                    <h3>Soft (real) skills</h3>
-                    <li><i class="fas fa-lightbulb"></i> Effcient and effective communication skills </li>
-                    <li><i class="fas fa-lightbulb"></i> Innovative, long-range thinker</li>
-                    <li><i class="fas fa-lightbulb"></i> Open and adoptable to changes and unexpected obstacles</li>
-                    <li><i class="fas fa-lightbulb"></i> Well-honed public speaking skills</li>
-                    </div>
-                    <div>
-                        <h3>Profile</h3>
-                        <div>
-                            <h3>Currently Learning...</h3>
-                            <ul>
-                                <li>Node.js</li>
-                                <li>Frameworks (React)</li>
-                                <li>Fundamentals of UI/UX Design</li>
+                <div id="main">
+
+                    <!-- One -->
+                        <section id="one">
+                            <header class="major">
+                                <h2>Hello! I am Leon A Taira</h2>
+                            </header>
+                            <p>Currently, I am a second year Policy Management student at Keio University. I play padel, love to cook japanese sweets and create music!</p>
+                            <ul class="actions">
+                                <li><a href="https://www.linkedin.com/in/leon-taira-hoy/" class="button">Learn More</a></li>
                             </ul>
-                        </div>
-                    </div>
+                        </section>
+    
+                    <!-- Two -->
+                        <section id="two">
+                            <h2>Recent Work</h2>
+                            <div class="row">
+                                <article class="work-item">
+                                    <a href="https://leon-taira.github.io/museumProject/" class="image fit thumb"><img src="assets/files/photos/Screen Shot 2020-07-25 at 13.09.12.png" alt="" /></a>
+                                    <h3>Shop Theme Landing Page</h3>
+                                    <p>Skills: BootStrap, HTML and CSS.</p>
+                                    <br>
+                                    <ul class="actions">
+                                        <li><a href="#" class="small-button">Live Code</a></li>
+                                        <li><a href="#" class="small-button">GitHub</a></li>
 
-                </div>
+                                    </ul>
+                                </article>
+                                <article class="work-item">
+                                    <a href="images/fulls/02.jpg" class="image fit thumb"><img src="assets/files/photos/resizeMovieRate.png" alt="" /></a>
+                                    <h3>Movie Rating Site</h3>
+                                    <p>Skills: Javascript, HTML and CSS.</p>
+                                    <br>
+                                    <ul class="actions">
+                                        <li><a href="#" class="small-button">Live Code</a></li>
+                                        <li><a href="#" class="small-button">GitHub</a></li>
 
-                <div id="technical-skills">
-                    <h3>Technical Skills</h3>
-                    <ul class="skill-list">
-                        <li class="skill">
-                            <h3>HTML</h3>
-                            <progress class="technicalSkill" max="100" value="90"></progress>
-                        </li>
-                        <li class="skill">
-                            <h3>CSS</h3>
-                            <progress class="technicalSkill" max="100" value="90"></progress>
-                        </li>
-                        <li class="skill">
-                            <h3>JavaScript</h3>
-                            <progress class="technicalSkill" max="100" value="80"></progress>
-                        </li>
-                        <li class="skill">
-                            <h3>Git</h3>
-                            <progress class="technicalSkill" max="100" value="80"></progress>
-                        </li>
-                        <li class="skill">
-                            <h3>jQuery</h3>
-                            <progress class="technicalSkill" max="100" value="30"></progress>
-                        </li>
-                        <br>
-                        <li class="skill">
-                            <h3>Adobe Illustrator</h3>
-                            <progress class="technicalSkill" max="100" value="85"></progress>
-                        </li>
-                        <li class="skill">
-                            <h3>Final Cut Pro</h3>
-                            <progress class="technicalSkill" max="100" value="85"></progress>
-                        </li>
-                        <li class="skill">
-                            <h3>Logic Pro X</h3>
-                            <progress class="technicalSkill" max="100" value="85"></progress>
-                        </li>
+                                    </ul>
+                                </article>
+                                <article class="col-6 col-12-xsmall work-item">
+                                    <a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+                                    <h3>Tortor metus commodo</h3>
+                                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                    <ul class="actions">
+                                        <li><a href="#" class="small-button">Live Code</a></li>
+                                        <li><a href="#" class="small-button">GitHub</a></li>
 
-                    </ul>
+                                    </ul>
+                                </article>
+                                <article class="col-6 col-12-xsmall work-item">
+                                    <a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+                                    <h3>Quam neque phasellus</h3>
+                                    <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                    <ul class="actions">
+                                        <li><a href="#" class="small-button">Live Code</a></li>
+                                        <li><a href="#" class="small-button">GitHub</a></li>
 
-                </div>
-                
-
-
+                                    </ul>
+                                </article>
+                            </div>
+                            <ul class="actions">
+                                <li><a href="#" class="button">Full Portfolio</a></li>
+                            </ul>
+                        </section>
+    
+                    <!-- Three -->
+                        <section id="three">
+                            <h2>Get In Touch</h2>
+                            <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                            <div class="row">
+                                <div class="col-8 col-12-small">
+                                    <form method="post" action="#">
+                                        <div class="row gtr-uniform gtr-50">
+                                            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                                            <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                                            <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                                        </div>
+                                    </form>
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Send Message" /></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-12-small">
+                                    <ul class="labeled-icons">
+                                        <li>
+                                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                                            1234 Somewhere Rd.<br />
+                                            Nashville, TN 00000<br />
+                                            United States
+                                        </li>
+                                        <li>
+                                            <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                                            000-000-0000
+                                        </li>
+                                        <li>
+                                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                                            <a href="#">hello@untitled.tld</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
             </div>
         </div>
-        <div class="section" id="section2">
-            <h1>No wraps, no extra markup</h1>
-        </div>
-        <div class="section" id="section3">
-            <h1>Just the simplest demo ever</h1>
-        </div>
-    </div>
+        
+            
 
 
     <script src="assets/js/lib/fullpage.extensions.min.js"></script>
@@ -136,10 +164,10 @@
     <script type="text/javascript">
         new fullpage('#fullpage', {
             licenseKey: 'FACA9AB5-7530451A-80630CBA-D7FFD1B6',
-            autoScrolling: true,
+            autoScrolling: false,
             scrollHorizontally: true,
-            sectionsColor: ['#ffa41b', '#005082', '#00a8cc', '#cc0066', '#66cccc'],
-            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+            sectionsColor: ['#f76c6c', '#ffffff',],
+            anchors: ['firstPage', 'secondPage',],
             controlArrows: true,
 
         });
